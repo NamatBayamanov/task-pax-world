@@ -1,14 +1,14 @@
 import classes from "./Navpush.module.css";
-
+import { Link } from "react-router-dom";
 
 
 function Navpush() {
   return ( 
     <li className={`${classes.Navpush} ${classes.push}`}>
-      <a href="/">
+      <Link to="/">
       Build your own
 
-      </a>
+      </Link>
     </li>
   );
 }

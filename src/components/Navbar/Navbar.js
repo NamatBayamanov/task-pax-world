@@ -20,7 +20,7 @@ function Navbar() {
               <NavItem url="/">Communication</NavItem>
               <Navpush/>
               <NavItem2/>
-              <NavItem url="/">Governance</NavItem>
+              <NavItem url="/governance">Governance</NavItem>
               <NavItem url="/">Partners</NavItem>
               <NavItem url="/">Roadmap</NavItem>
               <NavToggle/>
