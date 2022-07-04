@@ -1,0 +1,19 @@
+.NavToggle {
+  /* background-color: red; */
+  display: none;
+}
+.NavToggle span {
+  display: inline-block;
+  font-size: 33px;
+
+  color: white;
+  padding-top: 3px;
+}
+
+
+@media (max-width: 800px) {
+  .NavToggle {
+    display: inline-block;
+  }
+  
+}
