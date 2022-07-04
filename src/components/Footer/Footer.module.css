@@ -9,8 +9,9 @@
 .li_1 {
   flex: 1 1 0;
 }
-.li_2 li {
+.li_2 {
   display: flex;
+  gap: 15px;
   padding: 15px;
 }
 .li_2 span {

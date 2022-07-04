@@ -11,13 +11,22 @@ function Footer() {
         
         </li>
         <li className={classes.li_2}>
+          
+          <div>
           <li>Contact Us</li>
+          <span>
+          Made in 
+          </span>
+          </div>
+          <div>
           <li>Brand Assets</li>
-          <span>Made in Switzerland</span>
+          <span>Switzerland</span>
+          </div>
+        
         </li>
       </ul>
     </div>
-   );
+  );
 }
 
 export default Footer;
