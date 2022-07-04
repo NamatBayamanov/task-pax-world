@@ -4,13 +4,7 @@ function Brands() {
   return ( 
     <div>
       Brands
-      <ul>
-        <li>
-          <a href="/governance">
-            JHGHngbf
-          </a>
-        </li>
-      </ul>
+
     </div>
   );
 }

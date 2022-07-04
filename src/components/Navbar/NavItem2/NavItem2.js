@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 
 function NavItem2() {
   return (
-    <li className={classes.NavItem2}>
+    <aside className={classes.NavItem2}>
       <div>
         <Link to="/">
         <img src={paxImage} alt="#" /></Link>
         {/* <a href="/">pax.world</a> */}
       </div>
-    </li>
+    </aside>
   );
 }
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Navpush() {
   return ( 
-    <li className={`${classes.Navpush} ${classes.push}`}>
+    <li className={`${classes.Navpush}`}>
       <Link to="/">
       Build your own
 
